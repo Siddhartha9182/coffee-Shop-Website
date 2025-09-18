@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Coffee Haven - Menu</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <div class="item">
+            <h3>Espresso</h3>
+            <p>₹100</p>
+            <button onclick="addToCart('Espresso', 100)">Add to Cart</button>
+        </div>
+        <div class="item">
+            <h3>Cappuccino</h3>
+            <p>₹150</p>
+            <button onclick="addToCart('Cappuccino', 150)">Add to Cart</button>
+        </div>
+        <div class="item">
+            <h3>Latte</h3>
+            <p>₹180</p>
+            <button onclick="addToCart('Latte', 180)">Add to Cart</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
